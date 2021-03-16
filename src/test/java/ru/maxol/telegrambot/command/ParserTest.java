@@ -1,4 +1,4 @@
-package com.example.telegrambot.command;
+package ru.maxol.telegrambot.command;
 
 import org.junit.Before;
 import org.junit.Test;

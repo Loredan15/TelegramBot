@@ -1,45 +1,54 @@
-2021-03-16 15:03:11,018[INFO ][main            ][ com.example.telegrambot.bot.Bot] - [STARTED] TelegramAPI. Bot Connected. Bot class: com.example.telegrambot.bot.Bot@502f1f4c
-2021-03-16 15:03:11,023[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - [STARTED] MsgReciever.  Bot class: com.example.telegrambot.bot.Bot@502f1f4c
-2021-03-16 15:03:11,023[INFO ][MsgSender       ][elegrambot.service.MessageSender] - [STARTED] MsgSender.  Bot class: com.example.telegrambot.bot.Bot@502f1f4c
+2021-03-16 15:03:11,018[INFO ][main            ][ Bot] - [STARTED] TelegramAPI. Bot Connected. Bot class: Bot@502f1f4c
+2021-03-16 15:03:11,023[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - [STARTED] MsgReciever.  Bot class: Bot@502f1f4c
+2021-03-16 15:03:11,023[INFO ][MsgSender       ][elegrambot.service.MessageSender] - [STARTED] MsgSender.  Bot class: Bot@502f1f4c
 2021-03-16 15:03:12,264[ERROR][MsgSender       ][elegrambot.service.MessageSender] - Error sending message
 org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: chat not found
 	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
 	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
 	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
 	at org.telegram.telegrambots.bots.AbsSender.execute(AbsSender.java:53)
-	at com.example.telegrambot.service.MessageSender.send(MessageSender.java:46)
-	at com.example.telegrambot.service.MessageSender.run(MessageSender.java:26)
+	at MessageSender.send(MessageSender.java:46)
+	at MessageSender.run(MessageSender.java:26)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2021-03-16 15:03:49,051[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: com.example.telegrambot.handler.SystemHandler@40926882
-2021-03-16 15:04:08,069[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[HELP] is: com.example.telegrambot.handler.SystemHandler@1ecfef2f
-2021-03-16 15:07:50,238[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: com.example.telegrambot.handler.SystemHandler@8937c60
-2021-03-16 15:09:56,298[INFO ][main            ][ com.example.telegrambot.bot.Bot] - [STARTED] TelegramAPI. Bot Connected. Bot class: com.example.telegrambot.bot.Bot@1ef3efa8
-2021-03-16 15:09:56,299[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - [STARTED] MsgReciever.  Bot class: com.example.telegrambot.bot.Bot@1ef3efa8
-2021-03-16 15:09:56,299[INFO ][MsgSender       ][elegrambot.service.MessageSender] - [STARTED] MsgSender.  Bot class: com.example.telegrambot.bot.Bot@1ef3efa8
+2021-03-16 15:03:49,051[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: SystemHandler@40926882
+2021-03-16 15:04:08,069[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[HELP] is: SystemHandler@1ecfef2f
+2021-03-16 15:07:50,238[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: SystemHandler@8937c60
+2021-03-16 15:09:56,298[INFO ][main            ][ Bot] - [STARTED] TelegramAPI. Bot Connected. Bot class: Bot@1ef3efa8
+2021-03-16 15:09:56,299[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - [STARTED] MsgReciever.  Bot class: Bot@1ef3efa8
+2021-03-16 15:09:56,299[INFO ][MsgSender       ][elegrambot.service.MessageSender] - [STARTED] MsgSender.  Bot class: Bot@1ef3efa8
 2021-03-16 15:09:57,593[ERROR][MsgSender       ][elegrambot.service.MessageSender] - Error sending message
 org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: chat not found
 	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
 	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
 	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
 	at org.telegram.telegrambots.bots.AbsSender.execute(AbsSender.java:53)
-	at com.example.telegrambot.service.MessageSender.send(MessageSender.java:46)
-	at com.example.telegrambot.service.MessageSender.run(MessageSender.java:26)
+	at MessageSender.send(MessageSender.java:46)
+	at MessageSender.run(MessageSender.java:26)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2021-03-16 15:10:09,311[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: com.example.telegrambot.handler.SystemHandler@5d570a09
-2021-03-16 15:14:55,002[INFO ][main            ][ com.example.telegrambot.bot.Bot] - [STARTED] TelegramAPI. Bot Connected. Bot class: com.example.telegrambot.bot.Bot@1ef3efa8
-2021-03-16 15:14:55,007[INFO ][MsgSender       ][elegrambot.service.MessageSender] - [STARTED] MsgSender.  Bot class: com.example.telegrambot.bot.Bot@1ef3efa8
-2021-03-16 15:14:55,007[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - [STARTED] MsgReciever.  Bot class: com.example.telegrambot.bot.Bot@1ef3efa8
+2021-03-16 15:10:09,311[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: SystemHandler@5d570a09
+2021-03-16 15:14:55,002[INFO ][main            ][ Bot] - [STARTED] TelegramAPI. Bot Connected. Bot class: Bot@1ef3efa8
+2021-03-16 15:14:55,007[INFO ][MsgSender       ][elegrambot.service.MessageSender] - [STARTED] MsgSender.  Bot class: Bot@1ef3efa8
+2021-03-16 15:14:55,007[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - [STARTED] MsgReciever.  Bot class: Bot@1ef3efa8
 2021-03-16 15:14:56,260[ERROR][MsgSender       ][elegrambot.service.MessageSender] - Error sending message
 org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: chat not found
 	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
 	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
 	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
 	at org.telegram.telegrambots.bots.AbsSender.execute(AbsSender.java:53)
-	at com.example.telegrambot.service.MessageSender.send(MessageSender.java:46)
-	at com.example.telegrambot.service.MessageSender.run(MessageSender.java:26)
+	at MessageSender.send(MessageSender.java:46)
+	at MessageSender.run(MessageSender.java:26)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2021-03-16 15:15:17,027[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: com.example.telegrambot.handler.SystemHandler@27306d09
-2021-03-16 15:16:15,071[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: com.example.telegrambot.handler.SystemHandler@57568ada
-2021-03-16 15:16:22,075[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[HELP] is: com.example.telegrambot.handler.SystemHandler@1848c89a
-2021-03-16 15:16:31,082[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[NOTIFY] is: com.example.telegrambot.handler.NotifyHandler@7ae98d98
-2021-03-16 15:16:39,088[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[ID] is: com.example.telegrambot.handler.SystemHandler@198ad845
+2021-03-16 15:15:17,027[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: SystemHandler@27306d09
+2021-03-16 15:16:15,071[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[START] is: SystemHandler@57568ada
+2021-03-16 15:16:22,075[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[HELP] is: SystemHandler@1848c89a
+2021-03-16 15:16:31,082[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[NOTIFY] is: NotifyHandler@7ae98d98
+2021-03-16 15:16:39,088[INFO ][MsgReciever     ][egrambot.service.MessageReciever] - Handler for command[ID] is: SystemHandler@198ad845
+2021-03-16 16:16:39,456[ERROR][MsgSender       ][elegrambot.service.MessageSender] - Error sending message
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: chat not found
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.execute(AbsSender.java:53)
+	at ru.maxol.telegrambot.service.MessageSender.send(MessageSender.java:45)
+	at ru.maxol.telegrambot.service.MessageSender.run(MessageSender.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:832)

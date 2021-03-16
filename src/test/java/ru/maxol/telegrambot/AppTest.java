@@ -1,4 +1,4 @@
-package com.example.telegrambot;
+package ru.maxol.telegrambot;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
